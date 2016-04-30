@@ -10,7 +10,7 @@ source:
   url: https://pypi.python.org/packages/source/b/bob.learn.linear/bob.learn.linear-{{ version }}.zip
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
@@ -26,7 +26,6 @@ requirements:
     - bob.learn.activation
     - cmake
     - pkg-config
-    - gcc     # [linux]
 
   run:
     - python
@@ -36,7 +35,6 @@ requirements:
     - bob.io.base
     - bob.math
     - bob.learn.activation
-    - libgcc  # [linux]
 
 test:
   commands:

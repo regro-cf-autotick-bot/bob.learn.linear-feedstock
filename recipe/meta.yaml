@@ -10,7 +10,7 @@ source:
   url: https://pypi.python.org/packages/source/b/bob.learn.linear/bob.learn.linear-{{ version }}.zip
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - bob.learn.activation
     - cmake
     - pkg-config
-    - boost 1.60.*
+    - boost 1.61.*
 
   run:
     - python
@@ -35,7 +35,7 @@ requirements:
     - bob.io.base
     - bob.math
     - bob.learn.activation
-    - boost 1.60.*
+    - boost 1.61.*
 
 test:
   commands:

@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.0.8" %}
 
 package:
   name: bob.learn.linear
@@ -6,11 +6,11 @@ package:
 
 source:
   fn: bob.learn.linear-{{ version }}.zip
-  md5: 55de30da99375b9a147ab4927331052f
-  url: https://pypi.python.org/packages/source/b/bob.learn.linear/bob.learn.linear-{{ version }}.zip
+  md5: ca11f434823837a8f7aa71155e449f34
+  url: https://pypi.io/packages/source/b/bob.learn.linear/bob.learn.linear-{{ version }}.zip
 
 build:
-  number: 3
+  number: 0
   skip: true  # [win]
 
 requirements:

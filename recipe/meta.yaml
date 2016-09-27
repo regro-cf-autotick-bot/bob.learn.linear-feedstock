@@ -1,4 +1,4 @@
-{% set version = "2.0.8" %}
+{% set version = "2.0.9" %}
 
 package:
   name: bob.learn.linear
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.learn.linear-{{ version }}.zip
-  md5: ca11f434823837a8f7aa71155e449f34
+  md5: f3cdd413f1907194edf26981ea5b08fa
   url: https://pypi.io/packages/source/b/bob.learn.linear/bob.learn.linear-{{ version }}.zip
 
 build:
@@ -50,7 +50,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.learn.linear
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bob's Linear Machine and its Trainers
 
